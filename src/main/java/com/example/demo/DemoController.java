@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/message")
    String getMessage(){
-        return "Hello there buddy, change done in iteration 1 ! and then iteration 2";
+        return "Hello world in iteration 2";
     }
 }
